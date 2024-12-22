@@ -16,5 +16,8 @@ public class Program {
         double sum = num1 + num2 + num3;
 
         System.out.println("The sum of " + num1 + ", " + num2 + ", and " + num3 + " is: " + sum);
+        
+        double average = (num1 + num2 + num3) / 3;
+        System.out.println("The average of " + num1 + ", " + num2 + ", and " + num3 + " is: " + average);
     }
 }
